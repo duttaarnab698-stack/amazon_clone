@@ -1,0 +1,6 @@
+services:
+  - type: static
+    name: classroom
+    env: static
+    buildCommand: ""
+    staticPublishPath: "."
