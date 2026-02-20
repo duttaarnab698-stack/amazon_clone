@@ -1,0 +1,2 @@
+render deploy link : https://amazon-i2cd.onrender.com
+GitHub repo link : https://github.com/duttaarnab698-stack/amazon_clone.git
