@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazone</title>
+    <title>Amazone | Everyday shopping, upgraded</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
+        <div class="top-strip">
+            <p>Free shipping on select essentials and new-season picks</p>
+        </div>
         <div class="navbar">
            <div class="nav-logo border">
               <div class="logo"></div>
-           </div> 
+           </div>
            <div class="new-address border">
               <p class="add-first">Deliver to</p>
               <div class="add-icon">
@@ -58,77 +61,108 @@
                 <p>Sell</p>
             </div>
             <div class="panel-deals border">
-                shop deals in Electronics
+                Shop deals in Electronics
             </div>
         </div>
-
-        
     </header>
 
     <div class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-kicker">Spring-ready marketplace</p>
+            <h1>Smarter shopping for work, home, and daily life.</h1>
+            <p class="hero-copy">Browse curated essentials, dependable delivery, and standout deals across fashion, electronics, home, and personal care.</p>
+            <div class="hero-actions">
+                <a href="#shopGrid" class="hero-primary">Shop featured picks</a>
+                <a href="#" class="hero-secondary">Explore Prime benefits</a>
+            </div>
+        </div>
         <div class="hero-msg">
-            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a>Click here to go to amazon.in</a></p>
+            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="#">Go to amazon.in</a></p>
         </div>
     </div>
 
-    <div class="shop-section">
-        <div class=" box">
-           <div class="box-content">
-                <h2>Cloths</h2>
-              <div class="box-img" style="background-image: url('box1_image.jpg');"></div>
-              <p>See More</p>
+    <section class="shop-shell" id="shopGrid">
+        <div class="section-heading">
+            <p class="section-label">Featured departments</p>
+            <h2>Popular categories chosen for everyday convenience</h2>
+            <p class="section-copy">A tighter selection, clearer calls to action, and a cleaner browsing experience across the products customers check most.</p>
+        </div>
+        <div class="shop-section">
+            <div class="box">
+               <div class="box-content">
+                    <p class="box-tag">Style</p>
+                    <h2>Clothing</h2>
+                  <div class="box-img" style="background-image: url('box1_image.jpg');"></div>
+                  <p class="box-copy">Seasonal staples and versatile looks for daily wear.</p>
+                  <a href="#" class="box-link">See collection</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <p class="box-tag">Wellness</p>
+                    <h2>Health & Personal Care</h2>
+                    <div class="box-img" style="background-image: url('box2_image.jpg');"></div>
+                    <p class="box-copy">Trusted essentials for grooming, self-care, and wellness.</p>
+                    <a href="#" class="box-link">Browse essentials</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <p class="box-tag">Home</p>
+                    <h2>Furniture</h2>
+                    <div class="box-img" style="background-image: url('box3_image.jpg');"></div>
+                    <p class="box-copy">Functional pieces designed to make every room work harder.</p>
+                    <a href="#" class="box-link">Upgrade your space</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <p class="box-tag">Tech</p>
+                    <h2>Electronics</h2>
+                    <div class="box-img" style="background-image: url('box4_image.jpg');"></div>
+                    <p class="box-copy">Reliable devices and accessories for study, work, and play.</p>
+                    <a href="#" class="box-link">Shop devices</a>
+                </div>
+            </div>
+            <div class="box">
+               <div class="box-content">
+                    <p class="box-tag">Beauty</p>
+                    <h2>Beauty picks</h2>
+                  <div class="box-img" style="background-image: url('box5_image.jpg');"></div>
+                  <p class="box-copy">Editor-style picks for skincare, makeup, and everyday routines.</p>
+                  <a href="#" class="box-link">Discover more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <p class="box-tag">Pets</p>
+                    <h2>Pet Care</h2>
+                    <div class="box-img" style="background-image: url('box6_image.jpg');"></div>
+                    <p class="box-copy">Food, accessories, and comfort-focused essentials for pets.</p>
+                    <a href="#" class="box-link">Shop pet care</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <p class="box-tag">Kids</p>
+                    <h2>New Arrival in Toys</h2>
+                    <div class="box-img" style="background-image: url('box7_image.jpg');"></div>
+                    <p class="box-copy">Fresh arrivals that bring more fun to playtime and gifting.</p>
+                    <a href="#" class="box-link">View arrivals</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <p class="box-tag">Trends</p>
+                    <h2>Discover Fashion Trends</h2>
+                    <div class="box-img" style="background-image: url('box8_image.jpg');"></div>
+                    <p class="box-copy">Current looks and modern wardrobe updates in one place.</p>
+                    <a href="#" class="box-link">See what is trending</a>
+                </div>
             </div>
         </div>
-        <div class=" box">
-            <div class="box-content">
-                <h2>Health & Personal Care</h2>
-                <div class="box-img" style="background-image: url('box2_image.jpg');"></div>
-                <p>See More</p>
-            </div>
-        </div>
-        <div class=" box">
-            <div class="box-content">
-                <h2>Furniture</h2>
-                <div class="box-img" style="background-image: url('box3_image.jpg');"></div>
-                <p>See More</p>
-            </div>
-        </div>
-        <div class=" box">
-            <div class="box-content">
-                <h2>Electronics</h2>
-                <div class="box-img" style="background-image: url('box4_image.jpg');"></div>
-                <p>See More</p>
-            </div>
-        </div>
-        <div class=" box">
-           <div class="box-content">
-                <h2>Beauty picks</h2>
-              <div class="box-img" style="background-image: url('box5_image.jpg');"></div>
-              <p>See More</p>
-            </div>
-        </div>
-        <div class=" box">
-            <div class="box-content">
-                <h2>Pet Care</h2>
-                <div class="box-img" style="background-image: url('box6_image.jpg');"></div>
-                <p>See More</p>
-            </div>
-        </div>
-        <div class=" box">
-            <div class="box-content">
-                <h2>New Arrival in Toys</h2>
-                <div class="box-img" style="background-image: url('box7_image.jpg');"></div>
-                <p>See More</p>
-            </div>
-        </div>
-        <div class=" box">
-            <div class="box-content">
-                <h2>Discover Fashion Trends</h2>
-                <div class="box-img" style="background-image: url('box8_image.jpg');"></div>
-                <p>See More</p>
-            </div>
-        </div>
-    </div>
+    </section>
 
     <footer>
         <div class="foot-panel1">
@@ -137,40 +171,40 @@
 
         <div class="foot-panel2">
             <ul>
-                <p>Get to Know Us</p>
+                <p>Company</p>
                 <a>Careers</a>
                 <a>Blog</a>
                 <a>About Amazon</a>
                 <a>Investor Relations</a>
-                <a>Amazon Devices</a>
-                <a>Amazon Science</a>
+                <a>Leadership</a>
+                <a>Sustainability</a>
             </ul>
             <ul>
-                <p>Get to Know Us</p>
-                <a>Careers</a>
-                <a>Blog</a>
-                <a>About Amazon</a>
-                <a>Investor Relations</a>
-                <a>Amazon Devices</a>
-                <a>Amazon Science</a>
+                <p>Make Money with Us</p>
+                <a>Sell products</a>
+                <a>Sell apps</a>
+                <a>Become an affiliate</a>
+                <a>Advertise your products</a>
+                <a>Self-publish</a>
+                <a>Host with us</a>
             </ul>
             <ul>
-                <p>Get to Know Us</p>
-                <a>Careers</a>
-                <a>Blog</a>
-                <a>About Amazon</a>
-                <a>Investor Relations</a>
-                <a>Amazon Devices</a>
-                <a>Amazon Science</a>
+                <p>Support</p>
+                <a>Your account</a>
+                <a>Returns Centre</a>
+                <a>100% purchase protection</a>
+                <a>Help</a>
+                <a>Shipping rates</a>
+                <a>Accessibility</a>
             </ul>
             <ul>
-                <p>Get to Know Us</p>
-                <a>Careers</a>
-                <a>Blog</a>
-                <a>About Amazon</a>
-                <a>Investor Relations</a>
-                <a>Amazon Devices</a>
-                <a>Amazon Science</a>
+                <p>Business</p>
+                <a>Amazon Business</a>
+                <a>Supply chain solutions</a>
+                <a>Gift cards</a>
+                <a>Prime for Business</a>
+                <a>Device support</a>
+                <a>API services</a>
             </ul>
         </div>
 
@@ -180,12 +214,12 @@
 
         <div class="foot-panel4">
             <div class="pages">
-                <a>Conditions of uses</a>
+                <a>Conditions of Use</a>
                 <a>Privacy Notice</a>
                 <a>Your Ads Privacy Choices</a>
             </div>
             <div class="copyright">
-                © 1996-2026, Amazon.com, Inc. or its affiliates
+                &copy; 1996-2026, Amazon.com, Inc. or its affiliates
             </div>
         </div>
     </footer>
